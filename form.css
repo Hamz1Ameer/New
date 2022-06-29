@@ -1,0 +1,25 @@
+input[type=text] {
+    padding: 4px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    background-color: aquamarine;
+}
+
+body {
+    background-color: rgb(97, 219, 150);
+}
+
+ul li {
+    text-decoration: none;
+    padding-left: 5px;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+ul.nav {
+    display: flex;
+
+}

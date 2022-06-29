@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/form.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label for="first">First Name</label><br>
+            <input type="text" id="first" placeholder="First Name" name="first" required><br>
+
+            <label for="last">Last Name</label><br>
+            <input type="text" id="Last" placeholder="Last Name" name="Last"><br />
+
+            <label for="mail">Email Id</label><br>
+            <input type="email" id="mail" name="mail" placeholder="Enter your Email Address" required><br>
+
+            <label for="gender">Select your gender</label><br>
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="gender" name="gender" value="female">
+            <label for="female">female</label><br>
+            <input type="radio" id="gender" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <label for="disc">Discription</label>
+            <input type="text" width="300px" height="200px"><br><br>
+
+            <input type="button" onclick="alert('Your response is recorded')" value="Send">
+    </div>
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</li>
+            <li class="nav-item"><a class="nav-link" href="#">About</li>
+            <li class="nav-item"><a class="nav-link disabled" href="#">Contact</li>
+        </ul>
+    </div>
+</body>
+
+</html>
